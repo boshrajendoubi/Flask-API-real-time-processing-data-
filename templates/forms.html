@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>Tunisie télécom - Alimentation automatique de données </title>
+
+    <!-- Bootstrap core CSS -->
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/fontawesome.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/templatemo-digimedia-v1.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/animated.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/owl.css') }}">
+
+  </head>
+
+<body>
+    
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo">
+              <img src="{{ url_for('static',filename='images/LOGO_TT_.jpg')}}" alt="">
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+              <li class="scroll-to-section"><a href="#about">About</a></li>
+              <li class="scroll-to-section"><div class="border-first-button"><a href="#contact">Commencer</a></div></li> 
+            </ul>        
+            <a class='menu-trigger'>
+                <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-6 align-self-center">
+              <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <h6>Analyse de la qualité des ventes</h6>
+                    <h2>Alimentation automatique des données</h2>
+                    <p>Cette application flask permet d'alimenter automatiquement le data warehouse du dashboard des analyses des ventes pour le réseau TT</p>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="border-first-button scroll-to-section">
+                      <a href="#contact">Commencer</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                <img src="{{ url_for('static', filename='Data processing-amico.png') }}" alt="My Image">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="about" class="about section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="about-left-image  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+                <img src="{{ url_for('static',filename='about-dec-v3.png')}}" alt="">
+              </div>
+            </div>
+            <div class="col-lg-6 align-self-center  wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+              <div class="about-right-content">
+                <div class="section-heading">
+                  <h6>Data warehouse</h6>
+                  <h4>La structure et le schéma du <em>Data warehouse</em></h4>
+                  <div class="line-dec"></div>
+                </div>
+                <p>We hope this DigiMedia template is useful for your work. You can use this template for any purpose. You may <a rel="nofollow" href="http://paypal.me/templatemo" target="_blank">contribute a little amount</a> via PayPal to <a href="https://templatemo.com/contact" target="_blank">support TemplateMo</a> in creating new templates regularly.</p>
+    
+                 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!--<form action="/upload" method='POST' enctype='multipart/form-data'>
+       <input type="file" name="file" id="file">
+       <label for="file" id="fileLabel">Choose a file</label>
+         <input type="submit" value="Upload" id="upload-button">
+    </form>-->
+    <div id="portfolio" class="our-portfolio section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10">
+            <div class="section-heading wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
+              <h6>Les fichiers</h6>
+              <h4>Alimentez les fichiers du data warehouse <em>Automatiquement</em></h4>
+              <div class="line-dec"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid wow fadeIn" data-wow-duration="1s" data-wow-delay="0.7s">
+        <div class="row">
+          <!--<div class="col-lg-12">
+            <div class="loop owl-carousel">-->
+              <div class="item col-lg-3">
+                <a href="#">
+                  <div class="portfolio-item">
+                  <div class="thumb">
+                    <img src="{{ url_for('static', filename='images/Product teardown-pana.png')}}" alt="">
+                  </div>
+                  <div class="down-content">
+                    <h4>Fichier des ventes</h4>
+                    <span> Type : excel </span>
+                    <form action="/" method='POST' enctype='multipart/form-data' name='form1'>
+                      <input type="file" name="file" id="file1" class="file">
+                      <label for="file1" id="fileLabel1" class="fileLabel">Choisir un fichier</label>
+                        <input type="submit" value="Upload" id="upload-button1" class="upload-button">
+                   </form>
+                  </div>
+                </div>
+                </a>  
+              </div>
+              <div class="item col-lg-3">
+                <a href="#">
+                  <div class="portfolio-item">
+                  <div class="thumb">
+                    <img src="{{ url_for('static', filename='images/Sales consulting-amico.png')}}" alt="">
+                  </div>
+                  <div class="down-content">
+                    <h4>Fichier | points de ventes</h4>
+                    <span> Type : excel </span>
+                    <form action="/" method='POST' enctype='multipart/form-data' name="form2">
+                      <input type="file" name="file" id="file2" class="file">
+                      <label for="file2" id="fileLabel2" class="fileLabel">Choisir un fichier</label>
+                        <input type="submit" value="Upload" id="upload-button2" class="upload-button">
+                   </form>
+                  </div>
+                </div>
+                </a>  
+              </div>
+              <div class="item col-lg-3">
+                <a href="#">
+                  <div class="portfolio-item">
+                  <div class="thumb">
+                    <img src="{{ url_for('static', filename='images/Segmentation-cuate.png')}}" alt="">
+                  </div>
+                  <div class="down-content">
+                    <h4>Fichier | FCDRS</h4>
+                    <span> Type : excel </span>
+                    <form action="/" method='POST' enctype='multipart/form-data' name="form2">
+                      <input type="file" name="file" id="file3" class="file">
+                      <label for="file3" id="fileLabel3" class="fileLabel">Choisir un fichier</label>
+                        <input type="submit" value="Upload" id="upload-button3" class="upload-button">
+                   </form>
+                  </div>
+                </div>
+                </a>  
+              </div>
+              <div class="item col-lg-3">
+                <a href="#">
+                  <div class="portfolio-item">
+                  <div class="thumb">
+                    <img src="{{ url_for('static', filename='images/Yes or no-pana.png')}}" alt="">
+                  </div>
+                  <div class="down-content">
+                    <h4>Fichier | remontées</h4>
+                    <span> Type : excel </span>
+                    <form action="/" method='POST' enctype='multipart/form-data' name="form2">
+                      <input type="file" name="file" id="file4" class="file">
+                      <label for="file4" id="fileLabel4" class="fileLabel">Choisir un fichier</label>
+                        <input type="submit" value="Upload" id="upload-button4" class="upload-button">
+                   </form>
+                  </div>
+                </div>
+                </a>  
+              </div>
+              <div class="item col-lg-3">
+                <a href="#">
+                  <div class="portfolio-item">
+                  <div class="thumb">
+                    <img src="{{ url_for('static', filename='images/Business decisions-amico.png')}}" alt="">
+                  </div>
+                  <div class="down-content">
+                    <h4>Fichier | actifs mixtes</h4>
+                    <span> Type : excel </span>
+                    <form action="/" method='POST' enctype='multipart/form-data' name="form2">
+                      <input type="file" name="file" id="file5" class="file">
+                      <label for="file5" id="fileLabel5" class="fileLabel">Choisir un fichier</label>
+                        <input type="submit" value="Upload" id="upload-button5" class="upload-button">
+                   </form>
+                  </div>
+                </div>
+                </a>  
+              </div>
+              <div class="item col-lg-3">
+                <a href="#">
+                  <div class="portfolio-item">
+                  <div class="thumb">
+                    <img src="{{ url_for('static', filename='images/Tax-pana.png')}}" alt="">
+                  </div>
+                  <div class="down-content">
+                    <h4>Fichier | actifs taxés</h4>
+                    <span> Type : excel </span>
+                    <form action="/" method='POST' enctype='multipart/form-data' name="form2">
+                      <input type="file" name="file" id="file6" class="file">
+                      <label for="file6" id="fileLabel6" class="fileLabel">Choisir un fichier</label>
+                        <input type="submit" value="Upload" id="upload-button6" class="upload-button">
+                   </form>
+                  </div>
+                </div>
+                </a>  
+              </div>
+              <div class="item col-lg-3">
+                <a href="#">
+                  <div class="portfolio-item">
+                  <div class="thumb">
+                    <img src="{{ url_for('static', filename='images/Payment Information-cuate.png')}}" alt="">
+                  </div>
+                  <div class="down-content">
+                    <h4>Fichier | recharge 48h - 30j</h4>
+                    <span> Type : excel </span>
+                    <form action="/" method='POST' enctype='multipart/form-data' name="form2">
+                      <input type="file" name="file" id="file7" class="file">
+                      <label for="file7" id="fileLabel7" class="fileLabel">Choisir un fichier</label>
+                        <input type="submit" value="Upload" id="upload-button7" class="upload-button">
+                   </form>
+                  </div>
+                </div>
+                </a>  
+              </div>
+            <!--</div>-->
+          </div>
+        </div>
+      </div>
+    </div>
+    <h1>Données de votre fichier Excel : {{FileName}}</h1> 
+	      {{ data|safe }}
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <p>Boshra JENDOUBI | étudiante BI à l'ISG de Tunis
+            <br>PFE  <a href="" target="_parent" title="free css templates">2022 - 2023</a></p>
+            <p>Copyright © 2022 DigiMedia Co., Ltd. All Rights Reserved. 
+            <br>Design: <a href="" target="_parent" title="free css templates">TemplateMo</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Scripts -->
+  <script src="{{ url_for('static', filename='vendor/jquery/jquery.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+  <script src="{{ url_for('static', filename='js/owl-carousel.js')}}"></script>
+  <script src="{{ url_for('static', filename='js/animation.js')}}"></script>
+  <script src="{{ url_for('static', filename='js/imagesloaded.js')}}"></script>
+  <script src="{{ url_for('static', filename='js/custom.js') }}"></script>
+  </body>
+</html>
